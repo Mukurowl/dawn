@@ -1,0 +1,21 @@
+{% comment %}
+  this is a comment
+  {% assign my_variable = 'Hello world' %}
+  {% assign my_string = 'my string' %}
+  {{ my_variable }}
+  {{ my_string }}
+
+  {% assign my_number = 123 %}
+  {% if my_number == 123 %}
+    <p>
+      {{ my_number }}
+      <p>
+  {% endif %}
+  <br>
+  {{ product.tags }}
+  {% for tag in product.tags %}
+    {{ tag }}
+    <br>
+  {% endfor %}
+{% endcomment %}
+<!-- HTML COMMENT -->
